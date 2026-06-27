@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Unzip project files
-      run: unzip 99box.zip
+      run: unzip -o 99box.zip
 
     - name: set up JDK 17
       uses: actions/setup-java@v4
